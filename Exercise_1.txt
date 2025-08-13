@@ -13,4 +13,4 @@ Analyze how the unit tests impact the overall test coverage.
 Step 1: Generate unit tests for the provided class.
 Step 2: Measure improvements in code-coverage post usage of the unit tests.
 
-5. Develop unit tests aiming to improve code-coverage for the provided C# class. Analyze the code-coverage before and after the utlization of the unit tests.
+5. Develop unit tests aiming to improve code-coverage for the provided C# class. Analyze the code-coverage before and after the utlization of the unit tests. 
