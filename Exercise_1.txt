@@ -3,14 +3,34 @@ Task: Write five alternative prompts that generate unit tests for an existing C#
 1. Generate unit tests for the provided C# class, delimited by double quotes. Also explain how do these tests improve code-coverage.
 "" < C#-Class > ""
 
-2. Write unit tests for the given C# class, delimited by triple backticks. After writing them, summarize the code-coverage improvements.
+2. Here is a C# class, delimited by triple backticks. Write unit tests for the given class, and analyze code coverage before and after using the unit tests. 
+Here is an example:
+Class:  
+"  
+public class Calculator {  
+    public int Add(int a, int b) => a + b;  
+    public int Subtract(int a, int b) => a - b;  
+}  
+"
+
+Unit Tests:  
+"[TestMethod]  
+public void Add_ReturnsSum() { Assert.AreEqual(5, new Calculator().Add(2, 3)); }  
+[TestMethod]  
+public void Subtract_ReturnsDifference() { Assert.AreEqual(1, new Calculator().Subtract(3, 2)); }"  
+
+Coverage:  
+Before: 0%  
+After: 100%  
+Now apply this process to:
 ``` < C#-Class >  ```
 
 3. Create unit tests for this C# class: " < C#-Class > ".
 Analyze how the unit tests impact the overall test coverage.
 
 4. For the provided C# class, delimited by triple quotes, I want you to do the following:
-Step 1: Generate unit tests for the provided class.
-Step 2: Measure improvements in code-coverage post usage of the unit tests.
+Step 1: Analyze code-coverage for the given C# class.
+Step 2: Generate unit tests for the provided class.
+Step 3: Measure improvements in code-coverage post usage of the unit tests.
 
-5. Develop unit tests aiming to improve code-coverage for the provided C# class. Analyze the code-coverage before and after the utlization of the unit tests. 
+5. For the given C# code, analyze it's code coverage and generate unit tests aimed at improving code-coverage. After doing this, also generate a summary of observed improvements in code-coverage.
