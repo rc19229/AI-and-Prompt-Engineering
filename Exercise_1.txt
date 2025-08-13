@@ -1,0 +1,16 @@
+Task: Write five alternative prompts that generate unit tests for an existing C# class and measure code-coverage improvements.
+
+1. Generate unit tests for the provided C# class, delimited by double quotes. Also explain how do these tests improve code-coverage.
+"" < C#-Class > ""
+
+2. Write unit tests for the given C# class, delimited by triple backticks. After writing them, summarize the code-coverage improvements.
+``` < C#-Class >  ```
+
+3. Create unit tests for this C# class: " < C#-Class > ".
+Analyze how the unit tests impact the overall test coverage.
+
+4. For the provided C# class, delimited by triple quotes, I want you to do the following:
+Step 1: Generate unit tests for the provided class.
+Step 2: Measure improvements in code-coverage post usage of the unit tests.
+
+5. Develop unit tests aiming to improve code-coverage for the provided C# class. Analyze the code-coverage before and after the utlization of the unit tests.
