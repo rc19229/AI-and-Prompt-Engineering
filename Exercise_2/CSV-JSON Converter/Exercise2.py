@@ -22,7 +22,7 @@ if __name__ == "__main__":
     # Check if the correct number of arguments is provided
     if len(sys.argv) != 3:
         print("Usage: python Exercise2.py <input_csv> <output_json>")
-        sys.exit(1)
+        sys.exit(1) 
 
     # Get input and output file paths from command-line arguments
     input_file = sys.argv[1]
