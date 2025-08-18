@@ -7,17 +7,11 @@ Task: Write five alternative prompts that generate unit tests for an existing C#
 Here is an example:
 Class:  
 "  
-public class Calculator {  
-    public int Add(int a, int b) => a + b;  
-    public int Subtract(int a, int b) => a - b;  
-}  
+< Example C# Class >
 "
 
 Unit Tests:  
-"[TestMethod]  
-public void Add_ReturnsSum() { Assert.AreEqual(5, new Calculator().Add(2, 3)); }  
-[TestMethod]  
-public void Subtract_ReturnsDifference() { Assert.AreEqual(1, new Calculator().Subtract(3, 2)); }"  
+"< Example Unit Tests >"  
 
 Coverage:  
 Before: 0%  
