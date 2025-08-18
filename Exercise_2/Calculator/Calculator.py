@@ -10,7 +10,7 @@ def main():
 
     op = sys.argv[1]  # Operation: add, sub, mul, div
 
-    # Try to convert input numbers to float
+    # Try to change input numbers to float
     try:
         num1 = float(sys.argv[2])
         num2 = float(sys.argv[3])
